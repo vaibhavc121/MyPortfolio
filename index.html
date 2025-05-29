@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaibhav | Automation Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #0ea5e9;
+      --bg-color: #f8fafc;
+      --text-color: #1e293b;
+      --card-bg: #ffffff;
+      --card-shadow: rgba(0, 0, 0, 0.1);
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(to right, #0f172a, #1e3a8a);
+      color: #fff;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: 0 10px 20px var(--card-shadow);
+      margin-bottom: 2rem;
+      padding: 2rem;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+    .grid > div {
+      background-color: #f1f5f9;
+      padding: 1rem;
+      border-radius: 12px;
+      text-align: center;
+      font-weight: 600;
+      transition: background-color 0.3s;
+    }
+    .grid > div:hover {
+      background-color: #e0f2fe;
+    }
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #1e293b;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vaibhav</h1>
+    <p>Automation Engineer | SDET | DevOps Enthusiast</p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I am a passionate Automation Engineer with expertise in Java, Selenium, TestNG, Azure DevOps, and Docker. I build scalable automation frameworks and CI/CD pipelines, constantly evolving with industry trends to deliver high-quality software.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div>Java</div>
+        <div>Selenium</div>
+        <div>TestNG</div>
+        <div>Azure DevOps</div>
+        <div>Docker</div>
+        <div>REST Assured</div>
+        <div>CI/CD Pipelines</div>
+        <div>Git, GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div>
+          <h3>Hybrid Automation Framework</h3>
+          <p>A Selenium-TestNG framework integrated with Docker containers and Azure DevOps CI/CD pipelines for scalable cross-browser testing.</p>
+        </div>
+        <div>
+          <h3>API Testing Suite</h3>
+          <p>Robust REST Assured suite validating API response integrity, performance, and integrated reporting via ExtentReports.</p>
+        </div>
+        <div>
+          <h3>DevOps Pipeline Setup</h3>
+          <p>End-to-end CI/CD pipeline in Azure DevOps for automated build, test, and deployment of automation tests.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: your.email@example.com</p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Vaibhav | Built with passion and precision 💼</p>
+  </footer>
+</body>
+</html>
